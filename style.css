@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit
+}
+
+body{
+    height: 100vh;
+    background-color: #244BC5;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 64px;
+}
+
+.decoracao{
+    position: relative;
+    left: 68%;;
+    top: -13%;
+}
+
+.eclipse1{
+    position: absolute;
+    top: 48%;
+    left: 7.5%;
+}
+
+.eclipse2{
+    position: absolute;
+    top: 42%;
+    left: 4%;
+}
+
+.eclipse3{
+    position: absolute;
+    top: 36.5%;
+    left: 0.1%;
+}
+
+.main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    top: 45%;
+}
+
+form{
+    width: 80%;
+    margin: auto;
+    gap: 20px;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.carrinho{
+    position: absolute;
+    top: 30%;
+    left: 47%;
+}
+
+.inputs{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1px;
+    gap: 20px;
+}
+
+.inputs input{
+    border: 3px solid #FFFFFF;
+    background-color: #244BC5;
+    height: 45px;
+}
+
+.button{
+    width: 23%;
+    height: 45px;
+    color: #2148C0;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    border: #FFFFFF;
+}
+
+.main p{
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+}
